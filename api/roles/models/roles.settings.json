@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roles",
+  "info": {
+    "name": "Roles",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

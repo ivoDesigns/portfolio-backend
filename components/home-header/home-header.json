@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_header_home_headers",
+  "info": {
+    "name": "home-header",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TopTitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "novfield": {
+      "type": "string"
+    }
+  }
+}

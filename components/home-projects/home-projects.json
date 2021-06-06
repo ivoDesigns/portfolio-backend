@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_projects_home_projects",
+  "info": {
+    "name": "HomeProjects",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "TopTitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "projects": {
+      "collection": "projects"
+    }
+  }
+}

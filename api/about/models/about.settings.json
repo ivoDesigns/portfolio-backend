@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "story": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-header.home-header"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": false,
+      "component": "skills.skills"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "experience.experience"
+    },
+    "experience_positions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "experience-positions.experience-positions"
+    },
+    "cccc": {
+      "type": "string"
+    }
+  }
+}

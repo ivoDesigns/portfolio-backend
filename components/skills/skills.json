@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_skills_skills",
+  "info": {
+    "name": "skills",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tools": {
+      "collection": "tools"
+    },
+    "technologies": {
+      "collection": "technologies"
+    }
+  }
+}

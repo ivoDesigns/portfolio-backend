@@ -1,0 +1,15 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+      "accessKeyId": "B4T25KV5NXZYWVJMFL56",
+      "secretAccessKey": "2DtVXApNhOeTI3/z58BmS+ImNULu8G4IaOwmG0LJ8AI",
+      "endpoint": "fra1.digitaloceanspaces.com",
+      "region": "fra1",
+      "settings": {
+        "awsUploadFolder": "img_upload"
+      },
+      "params": {
+        "Bucket": "portfolio-ivo"
+      }
+    }
+  }

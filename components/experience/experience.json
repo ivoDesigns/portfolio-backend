@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_experience_experiences",
+  "info": {
+    "name": "experience",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "topTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

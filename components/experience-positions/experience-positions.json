@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_experience_positions_experience_positions",
+  "info": {
+    "name": "experience_positions",
+    "icon": "backspace",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companies": {
+      "collection": "companies"
+    }
+  }
+}

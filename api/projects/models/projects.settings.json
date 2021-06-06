@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "TimeCreated": {
+      "type": "string"
+    },
+    "Image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery.gallery"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Client": {
+      "type": "string"
+    },
+    "tools": {
+      "collection": "tools"
+    },
+    "technologies": {
+      "collection": "technologies"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "roles": {
+      "collection": "roles"
+    },
+    "card_description": {
+      "type": "text"
+    },
+    "short_description": {
+      "type": "string"
+    }
+  }
+}

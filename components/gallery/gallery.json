@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_gallery_galleries",
+  "info": {
+    "name": "Gallery",
+    "icon": "baseball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
