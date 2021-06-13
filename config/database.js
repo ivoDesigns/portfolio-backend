@@ -4,35 +4,18 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'bookshelf',
       settings: {
-        client: 'sqlite',
-        filename: env('DATABASE_FILENAME', '.tmp/data.db'),
+        client: 'postgres',
+        host: env('DATABASE_HOST', 'dpg-c331drs64ckgv36fekng'),
+        port: env.int('DATABASE_PORT', 5432),
+        database: env('DATABASE_NAME', 'strapi_ah59'),
+        username: env('DATABASE_USERNAME', 'strapi_ah59_user'),
+        password: env('DATABASE_PASSWORD', 'Xicy40FbQdbVD83uFoWNi1dlqkpuFjlY'),
+        schema: env('DATABASE_SCHEMA', 'public'), // Not Required
+        ssl: {
+          rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
+        },
       },
-      options: {
-        useNullAsDefault: true,
-      },
+      options: {},
     },
   },
 });
-// Postgress
-// module.exports = ({ env }) => ({
-//   defaultConnection: 'default',
-//   connections: {
-//     default: {
-//       connector: 'bookshelf',
-//       settings: {
-//         client: 'postgres',
-//         host: 'entropy-database-do-user-8370476-0.b.db.ondigitalocean.com',
-//         port: '25060',
-//         database: 'ivaylo-portfolio',
-//         username: 'doadmin',
-//         password: 'gz725v8w9vsw7d5u',
-//         ssl: {
-//           rejectUnauthorized: false,
-//         }
-//       },
-//       options: {
-//         ssl: true,
-//       },
-//     }
-//   }
-// })
