@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "sses",
+  "info": {
+    "name": "ss"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ss": {
+      "type": "string"
+    }
+  }
+}

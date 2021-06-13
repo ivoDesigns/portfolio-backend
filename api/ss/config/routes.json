@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ss",
+      "handler": "ss.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ss",
+      "handler": "ss.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ss",
+      "handler": "ss.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
